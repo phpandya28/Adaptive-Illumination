@@ -1,0 +1,54 @@
+===== Arduino Code =====
+
+// Define a variable to store the light sensor reading
+float lightval;
+
+// Define the analog pin to read the voltage from the light sensor
+int voltageread = A1;
+
+// Define the pin to which the LED is connected
+int ledpin = 8;
+
+// Variable to store the calculated LED brightness
+float y_op;
+
+// Define the delay time in milliseconds
+int dt = 1000;
+
+// Setup function runs once when the Arduino starts
+void setup() {
+  // Start communication with the Serial Monitor at a baud rate of 9600
+  Serial.begin(9600);
+
+  // Set the pin mode for the light sensor pin as INPUT
+  pinMode(voltageread, INPUT);
+
+  // Set the pin mode for the LED pin as OUTPUT
+  pinMode(ledpin, OUTPUT);
+}
+
+// Loop function runs repeatedly after setup
+void loop() {
+  // Read the analog value from the light sensor and store it in the 'lightval' variable
+  lightval = analogRead(voltageread);
+
+  // Print the light sensor reading to the Serial Monitor
+  Serial.println(lightval);
+
+  // Wait for the specified delay time
+  delay(dt);
+
+  // Check if the light intensity is below 800
+  if (lightval < 800) {
+    // Turn off the LED if light intensity is below 800
+    analogWrite(ledpin, 0);
+  } 
+  // Check if the light intensity is between 800 and 1023
+  else if (lightval >= 800 && lightval <= 1023) {
+    // Map the light intensity to LED brightness using a linear function
+    y_op = map(lightval, 800, 1023, 0, 255);
+
+    // Set the LED brightness based on the mapped value
+    analogWrite(ledpin, y_op);
+  }
+}
