@@ -1,3 +1,5 @@
+
+https://github.com/phpandya28/Adaptive-Illumination/assets/138100019/2685069c-f12b-41b8-a164-7179f1d93dd3
 # Adaptive Illumination: Smart Bulb with Dynamic Daylight Sensing
 
 This Arduino project demonstrates a smart bulb system with dynamic daylight sensing, offering adaptive illumination based on ambient light conditions. By incorporating a light sensor made with the help of photo resistor, the project adjusts the brightness of an LED in response to changes in the surrounding light environment. The system is designed to turn off the LED when the light intensity falls below a certain threshold and gradually increase its brightness as the ambient light level rises.
@@ -7,6 +9,9 @@ This Arduino project demonstrates a smart bulb system with dynamic daylight sens
 Experience intelligent lighting with the Adaptive Illumination Arduino project. Transform a standard LED into a smart bulb that dynamically adapts to varying daylight conditions. This project utilizes a light sensor and Arduino board to create a responsive lighting system, offering a hands-on exploration of Light sensors which is made with the help of Photo Resistor and Analog control for LEDs.
 
 Navigate through this README to set up the project, comprehend the code's functionality, and gain insights into its methodology. Whether you're a novice exploring Arduino projects or an enthusiast looking for an engaging experiment, this project provides an exciting opportunity to blend technology with the natural environment. Let's delve into the world of Adaptive Illumination and create a smart bulb that adjusts to the changing patterns of daylight
+
+Here's Demo :
+https://github.com/phpandya28/Adaptive-Illumination/assets/138100019/2bfa87bf-9c25-41c1-9e8d-1dfa3cbaf76c
 
 # Setup
 Follow these steps to set up the Adaptive Illumination Arduino project:
