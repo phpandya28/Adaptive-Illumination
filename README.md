@@ -9,7 +9,7 @@ Experience intelligent lighting with the Adaptive Illumination Arduino project. 
 Navigate through this README to set up the project, comprehend the code's functionality, and gain insights into its methodology. Whether you're a novice exploring Arduino projects or an enthusiast looking for an engaging experiment, this project provides an exciting opportunity to blend technology with the natural environment. Let's delve into the world of Adaptive Illumination and create a smart bulb that adjusts to the changing patterns of daylight
 
 Here's Demo :
-https://github.com/phpandya28/Adaptive-Illumination/assets/138100019/f553ddec-59c5-4288-b978-f8423c3fd046
+https://github.com/phpandya28/Adaptive-Illumination/assets/138100019/ebd4af68-a10a-4eb4-ba63-c3bb8ea152a9
 
 # Setup
 Follow these steps to set up the Adaptive Illumination Arduino project:
